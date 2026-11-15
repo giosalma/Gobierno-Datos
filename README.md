@@ -17,13 +17,10 @@ Con más de 25 años de experiencia profesional en el ámbito tecnológico y en 
 - **Arquitectura Empresarial:** TOGAF 10, Data Fabric, Modelado Conceptual y Lógico.
 - **Orquestación y Ecosistemas:** Interoperabilidad de sistemas Core, (ERPs/CRMs) hacia repositorios centralizados.
 - **Gestión Directiva:** Formación de Comités de Gobierno, definición de roles (Data Stewards/Owners) y cumplimiento regulatorio.
-
 ---
-
 ## 📐 Arquitectura de Referencia: Ecosistema de Gobierno y MDM
 
 El siguiente modelo ilustra mi enfoque arquitectónico agnóstico para resolver el caos de datos corporativos. Este diseño estandariza la extracción desde cualquier sistema transaccional (Core Bancario, Seguros, Retail, ERP) y lo somete a una estricta capa de Gobierno antes de su consumo.
-
 ```mermaid
 flowchart TD
     classDef gobierno fill:#e8eaf6,stroke:#3f51b5,stroke-width:2px,color:#000;
@@ -63,9 +60,7 @@ flowchart TD
     
     Gobierno -.->|Aplica Políticas y Seguridad| Fuentes
 ```
-
 ---
-
 ## 🛡️ Data Governance Framework (Metodología Operativa)
 
 Para que la arquitectura tecnológica funcione, implemento un marco de trabajo basado en procesos y personas (Framework DAMA), asegurando la adopción organizacional y el retorno de inversión.
@@ -81,7 +76,6 @@ Para que la arquitectura tecnológica funcione, implemento un marco de trabajo b
 ### 3. Aseguramiento de Calidad y Seguridad
 * Definición de métricas de calidad (Completitud, Exactitud, Oportunidad, Consistencia).
 * Implementación de políticas de privacidad y control de accesos basados en roles, asegurando el cumplimiento de normativas locales e internacionales de protección de la información.
-
 ---
 
 ## 📊 Proof of Work: Impacto de Negocio (ROI)
@@ -89,6 +83,4 @@ Para que la arquitectura tecnológica funcione, implemento un marco de trabajo b
 * **Confiabilidad Corporativa:** En despliegues recientes para ecosistemas corporativos tipo holding, la estructuración de lineamientos centralizados de MDM y gobierno de datos logró incrementar la **confiabilidad de la información en más de un 60%**.
 * **Eficiencia Operativa:** Reducción drástica de incidentes de interoperabilidad técnica al estandarizar herramientas, diccionarios de datos y marcos de trabajo a nivel transversal.
 * **Aceleración Analítica:** Al entregar datos limpios y gobernados, los equipos de desarrollo y ciencia de datos aceleraron sus tiempos de entrega de productos analíticos en más de un **80%**.
-
 ---
-*Para discutir cómo estructurar el gobierno de datos en su organización, póngase en contacto a través de los enlaces al inicio de este documento.*
