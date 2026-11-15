@@ -84,3 +84,5 @@ Para que la arquitectura tecnológica funcione, implemento un marco de trabajo b
 * **Eficiencia Operativa:** Reducción drástica de incidentes de interoperabilidad técnica al estandarizar herramientas, diccionarios de datos y marcos de trabajo a nivel transversal.
 * **Aceleración Analítica:** Al entregar datos limpios y gobernados, los equipos de desarrollo y ciencia de datos aceleraron sus tiempos de entrega de productos analíticos en más de un **80%**.
 ---
+
+Hice el cambio aca
