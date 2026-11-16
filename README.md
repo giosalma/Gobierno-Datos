@@ -22,7 +22,7 @@ Con más de 25 años de experiencia profesional en el ámbito tecnológico y en 
 
 El siguiente modelo ilustra mi enfoque arquitectónico agnóstico para resolver el caos de datos corporativos. Este diseño estandariza la extracción desde cualquier sistema transaccional (Core Bancario, Seguros, Retail, ERP) y lo somete a una estricta capa de Gobierno antes de su consumo.
 
-[Arquitectura de Gobierno de Datos y MDM](Gobierno_Datos_Anim.drawio.svg)
+![Arquitectura de Gobierno de Datos y MDM](Gobierno_Datos_Anim.drawio.svg)
 
 ---
 ## 🛡️ Data Governance Framework (Metodología Operativa)
