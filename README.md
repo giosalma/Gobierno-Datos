@@ -21,45 +21,9 @@ Con más de 25 años de experiencia profesional en el ámbito tecnológico y en 
 ## 📐 Arquitectura de Referencia: Ecosistema de Gobierno y MDM
 
 El siguiente modelo ilustra mi enfoque arquitectónico agnóstico para resolver el caos de datos corporativos. Este diseño estandariza la extracción desde cualquier sistema transaccional (Core Bancario, Seguros, Retail, ERP) y lo somete a una estricta capa de Gobierno antes de su consumo.
-```mermaid
-flowchart TD
-    classDef gobierno fill:#e8eaf6,stroke:#3f51b5,stroke-width:2px,color:#000;
-    classDef sistemas fill:#eceff1,stroke:#607d8b,stroke-width:2px,color:#000;
-    classDef integracion fill:#fff8e1,stroke:#ffb300,stroke-width:2px,color:#000;
-    classDef consumo fill:#e8f5e9,stroke:#2e7d32,stroke-width:2px,color:#000;
 
-    subgraph Fuentes ["1. Sistemas Core Transaccionales (Silos Originales)"]
-        direction LR
-        S1[(Core Operativo)]:::sistemas
-        S2[(CRM / Canales)]:::sistemas
-        S3[(Bases Locales)]:::sistemas
-    end
+[Arquitectura de Gobierno de Datos y MDM](Gobierno_Datos_Anim.drawio.svg)
 
-    subgraph Interoperabilidad ["2. Capa de Integración (Data Fabric)"]
-        I1[Bus de Servicios y Pipelines de Ingesta]:::integracion
-    end
-
-    subgraph Gobierno ["3. Capa de Gobierno de Datos Centralizado (DAMA-DMBOK)"]
-        direction TB
-        G1[Repositorio de Datos Maestros - MDM]:::gobierno
-        G2[Motor de Calidad y Limpieza de Datos]:::gobierno
-        G3[Catálogo de Datos y Linaje]:::gobierno
-    end
-
-    subgraph Consumo ["4. Consumo Analítico y Regulatorio"]
-        direction LR
-        C1[Reportes Regulatorios]:::consumo
-        C2[Toma de Decisiones Directivas]:::consumo
-        C3[Modelos de Inteligencia Artificial]:::consumo
-    end
-
-    Fuentes -->|Extracción de Datos Crudos| I1
-    I1 -->|Validación y Estandarización| Gobierno
-    Gobierno -->|Datos Confiables / Golden Record| I1
-    I1 -->|Distribución Segura| Consumo
-    
-    Gobierno -.->|Aplica Políticas y Seguridad| Fuentes
-```
 ---
 ## 🛡️ Data Governance Framework (Metodología Operativa)
 
@@ -84,5 +48,3 @@ Para que la arquitectura tecnológica funcione, implemento un marco de trabajo b
 * **Eficiencia Operativa:** Reducción drástica de incidentes de interoperabilidad técnica al estandarizar herramientas, diccionarios de datos y marcos de trabajo a nivel transversal.
 * **Aceleración Analítica:** Al entregar datos limpios y gobernados, los equipos de desarrollo y ciencia de datos aceleraron sus tiempos de entrega de productos analíticos en más de un **80%**.
 ---
-
-Hice el cambio aca
