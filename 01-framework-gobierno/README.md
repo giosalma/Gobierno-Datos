@@ -19,6 +19,8 @@ Este marco operacionaliza el gobierno como un habilitador de negocio. Su propós
 
 ## 2. Estructura de Gobierno y Toma de Decisiones
 
+![Modelo Operativo de Gobierno de Datos y Flujo de Escalamiento](./modelo-operativo-gobierno-datos.svg)
+
 El gobierno requiere autoridad real para arbitrar conflictos entre áreas (por ejemplo, cuando Comercial y Finanzas definen distinto el concepto de "Cliente Activo"). La estructura se divide en tres niveles:
 
 1. **Comité Ejecutivo de Datos (Nivel Estratégico):** Integrado por C-Level y Directores de Dominio. Aprueba la inversión (ROI/TCO), prioriza los dominios críticos a gobernar y resuelve disputas de propiedad que escalan desde la operación. Sesiona trimestralmente.
