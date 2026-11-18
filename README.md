@@ -42,3 +42,8 @@ Para que la arquitectura tecnológica funcione, implemento un marco de trabajo b
 * **Eficiencia Operativa:** Reducción drástica de incidentes de interoperabilidad técnica al estandarizar herramientas, diccionarios de datos y marcos de trabajo a nivel transversal.
 * **Aceleración Analítica:** Al entregar datos limpios y gobernados, los equipos de desarrollo y ciencia de datos aceleraron sus tiempos de entrega de productos analíticos en más de un **80%**.
 ---
+---
+
+## 📂 Artefactos y Documentación del Portafolio
+
+* **[01. Marco Operativo y Política de Gobierno de Datos](./01-framework-gobierno/README.md):** Estructura de comités, matriz RACI, lineamientos de seguridad Zero Trust, KPIs de impacto y decisiones pragmáticas de implementación.
