@@ -48,4 +48,4 @@ Para que la arquitectura tecnológica funcione, implemento un marco de trabajo b
 
 * **[01. Marco Operativo y Política de Gobierno de Datos](./01-framework-gobierno/README.md):** Estructura de comités, matriz RACI, lineamientos de seguridad Zero Trust, KPIs de impacto y decisiones pragmáticas de implementación.
 
-* **[02. Calidad de Datos y Master Data Management (MDM)](./02-calidad-y-mdm/README.md):** Modelo de arquitectura agnóstico (6 planos), caso de uso de Vista Única de Cliente, arquitectura de referencia Medallion + MDM, solución en Google Cloud (con equivalencias en Azure y AWS) y **[PoC ejecutable a $0 USD](./02-calidad-y-mdm/poc-calidad-mdm/README_POC.md)**.
+* **[02. Calidad de Datos y Master Data Management (MDM)](./02-calidad-y-mdm/README.md):** Modelo de arquitectura agnóstico (6 planos), caso de uso de Vista Única de Cliente, arquitectura de referencia Medallion + MDM, solución en Google Cloud (con equivalencias en Azure y AWS) y **[PoC ejecutable](./02-calidad-y-mdm/poc-calidad-mdm/README_POC.md)**.
