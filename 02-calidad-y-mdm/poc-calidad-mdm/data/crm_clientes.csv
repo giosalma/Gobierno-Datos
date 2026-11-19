@@ -1,0 +1,9 @@
+id_origen,tipo_doc,num_doc,nombre_completo,fecha_nacimiento,email,telefono,direccion,estado_cliente,tiene_producto_activo,segmento,fecha_actualizacion
+CRM-5001,CC,1015423890,CARLOS ANDRES GOMEZ RUIZ,1985-04-12,c.gomez.nuevo@gmail.com,+573001234567,Carrera 15 No 93-40 Apto 401,ACTIVO,SI,MASIVO,2026-11-16
+CRM-5002,CC,52890123,Maria Jose Perez Castro,1979-08-25,maria.perez@correo.co,+573109876599,Calle 72 # 10-34 Of 502,ACTIVO,SI,CORPORATIVO,2026-11-17
+CRM-5003,CC,79845129,Jorge Enrique Ramirez Lopez,1972-11-03,jramirez@mail.com,+573154443322,Cra 7 # 116-50,ACTIVO,SI,PREFERENCIAL,2026-11-14
+CRM-5004,CC,1020789999,Andres Felipe Torres V.,1988-07-30,aftorres@outlook.com,+573112223300,Cra 11 # 82-15 Bogotá,ACTIVO,SI,MASIVO,2026-11-13
+CRM-5005,CC,,Diana Carolina Rojas Nieto,1992-06-18,diana.rojas@correo.co,+573187654321,Cl 127 # 45-10 Bogotá,ACTIVO,SI,MASIVO,2026-11-15
+CRM-5006,CC,1032456789,Felipe Eduardo Castro Pineda,1991-12-05,felipe.castro_sin_arroba.com,+573123456789,Av Suba # 115-20 Bogotá,ACTIVO,SI,MASIVO,2026-11-12
+CRM-5007,CC,1018456321,Valentina Ospina Restrepo,1995-03-27,valentina.ospina@digital.co,+573168889900,Cra 9 # 70-12 Bogotá,ACTIVO,SI,MASIVO,2026-11-17
+CRM-5008,NIT,900456789-1,INVERSIONES ANDINAS SAS,2010-01-15,comercial@invandinas.com.co,+576015551234,Av El Dorado 68C 61,ACTIVO,SI,EMPRESARIAL,2026-11-16

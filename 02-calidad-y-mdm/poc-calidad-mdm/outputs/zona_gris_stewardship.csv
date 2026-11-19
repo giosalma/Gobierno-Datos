@@ -1,0 +1,2 @@
+id_origen_candidato,sistema_candidato,nombre_candidato,doc_candidato,id_origen_maestro,sistema_maestro,nombre_maestro,doc_maestro,score_similitud,accion_requerida
+CRM-5004,CRM_COMERCIAL,Andres Felipe Torres V.,CC-1020789999,CORE-1006,CORE_TRANSACCIONAL,Andrés Felipe Torres Vargas,CC-1020789456,89.8,Revisión manual por Data Steward (Confirmar Merge o Separar)

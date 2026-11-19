@@ -1,0 +1,11 @@
+id_origen,tipo_doc,num_doc,nombre_completo,fecha_nacimiento,email,telefono,direccion,estado_cliente,tiene_producto_activo,segmento,fecha_actualizacion
+CORE-1001,CC,1015423890,Carlos Andrés Gómez Ruiz,1985-04-12,carlos.gomez@empresa.co,+573001234567,Cra 15 # 93-40 Bogotá,ACTIVO,SI,PREFERENCIAL,2026-11-10
+CORE-1002,CC,52890123,María José Pérez Castro,1979-08-25,maria.perez@correo.co,+573109876543,Cl 72 # 10-34 Bogotá,ACTIVO,SI,CORPORATIVO,2026-11-12
+CORE-1003,NIT,900456789-1,Inversiones Andinas S.A.S.,2010-01-15,contacto@invandinas.com.co,+576015551234,Av Eldorado # 68C-61 Bogotá,ACTIVO,SI,EMPRESARIAL,2026-11-15
+CORE-1004,CC,79845120,Jorge Enrique Ramírez López,1972-11-03,jorge.ramirez@mail.com,+573154443322,Cra 7 # 116-50 Bogotá,ACTIVO,SI,PREFERENCIAL,2026-11-08
+CORE-1005,CE,456789,Laura Sofía Mendoza Silva,1990-02-19,laura.mendoza@global.com,+573205556677,Cl 100 # 19-61 Bogotá,ACTIVO,SI,MASIVO,2026-11-14
+CORE-1006,CC,1020789456,Andrés Felipe Torres Vargas,1988-07-30,andres.torres@tech.co,+573112223344,Cra 11 # 82-01 Bogotá,ACTIVO,SI,PREFERENCIAL,2026-11-11
+CORE-1007,CC,80123456,Ricardo Alfonso Morales Díaz,1968-05-22,ricardo.morales@finanzas.co,+573019998877,Av 19 # 104-20 Bogotá,INACTIVO,NO,MASIVO,2026-10-20
+CORE-1008,CC,51987654,Patricia Elena Herrera Ortiz,1975-09-14,patricia.herrera@seguros.co,+573147776655,Cl 85 # 15-30 Bogotá,ACTIVO,SI,CORPORATIVO,2026-11-16
+CORE-1009,CC,19456789,Hernán Darío Salgado Mejía,1955-03-10,hernan.salgado@correo.co,+573103332211,Cl 45 # 22-10 Bogotá,FALLECIDO,SI,MASIVO,2026-11-01
+CORE-1010,NIT,860123456-7,Logística del Pacífico Ltda.,2005-06-01,tesoreria@logpacifico.co,+576017445566,Zona Franca Bodega 12 Bogotá,ACTIVO,SI,EMPRESARIAL,2026-11-17

@@ -1,0 +1,179 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 1120" width="1280" height="1120">
+  <defs>
+    <style>
+      .flow-center { stroke-dasharray: 8 5; animation: dashFlow 0.9s linear infinite; }
+      .flow-side { stroke-dasharray: 10 6; animation: dashFlow 1.2s linear infinite; }
+      @keyframes dashFlow { from { stroke-dashoffset: 32; } to { stroke-dashoffset: 0; } }
+    </style>
+    <marker id="arr-p" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 1 L 10 5 L 0 9 z" fill="#56517e" /></marker>
+    <marker id="arr-b" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 1 L 10 5 L 0 9 z" fill="#226aa1" /></marker>
+    <marker id="arr-db" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 1 L 10 5 L 0 9 z" fill="#15547f" /></marker>
+    <marker id="arr-a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 1 L 10 5 L 0 9 z" fill="#dc901f" /></marker>
+    <marker id="arr-r" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 1 L 10 5 L 0 9 z" fill="#b83b3b" /></marker>
+    <marker id="arr-g" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 1 L 10 5 L 0 9 z" fill="#2d8145" /></marker>
+  </defs>
+  <rect x="0" y="0" width="1280" height="1120" fill="#ffffff" />
+
+  <!-- FLUJOS ANIMADOS -->
+  <path d="M 630 230 L 630 278" fill="none" stroke="#56517e" stroke-width="3.2" class="flow-center" marker-end="url(#arr-p)" />
+  <path d="M 630 486 L 630 534" fill="none" stroke="#226aa1" stroke-width="3.2" class="flow-center" marker-end="url(#arr-b)" />
+  <path d="M 630 762 L 630 810" fill="none" stroke="#dc901f" stroke-width="3.2" class="flow-center" marker-end="url(#arr-a)" />
+
+  <!-- Plano Transversal Izquierdo (Gobierno y Zero Trust) -> Todos los planos -->
+  <path d="M 206 130 L 242 130" fill="none" stroke="#15547f" stroke-width="2.6" class="flow-side" marker-end="url(#arr-db)" />
+  <path d="M 206 385 L 242 385" fill="none" stroke="#15547f" stroke-width="2.6" class="flow-side" marker-end="url(#arr-db)" />
+  <path d="M 206 650 L 242 650" fill="none" stroke="#15547f" stroke-width="2.6" class="flow-side" marker-end="url(#arr-db)" />
+  <path d="M 206 940 L 242 940" fill="none" stroke="#15547f" stroke-width="2.6" class="flow-side" marker-end="url(#arr-db)" />
+
+  <!-- Derecha: Rechazos a Cuarentena -> Remediacion en Origen -->
+  <path d="M 1010 385 L 1140 385 Q 1150 385 1150 395 L 1150 510" fill="none" stroke="#b83b3b" stroke-width="3" class="flow-side" marker-end="url(#arr-r)" />
+  <path d="M 1245 585 L 1260 585 Q 1268 585 1268 575 L 1268 140 Q 1268 130 1260 130 L 1018 130" fill="none" stroke="#b83b3b" stroke-width="2.8" class="flow-side" marker-end="url(#arr-r)" />
+  <path d="M 1010 940 L 1140 940 Q 1150 940 1150 930 L 1150 668" fill="none" stroke="#2d8145" stroke-width="3" class="flow-side" marker-end="url(#arr-g)" />
+
+  <!-- PLANO 6 (TRANSVERSAL IZQUIERDO): GOBIERNO, METADATOS Y ZERO TRUST -->
+  <rect x="22" y="30" width="184" height="1040" rx="14" fill="#eef5fc" stroke="#15547f" stroke-width="2" />
+  <path d="M 36 30 H 192 A 14 14 0 0 1 206 44 V 105 H 22 V 44 A 14 14 0 0 1 36 30 Z" fill="#15547f" />
+  <text x="114" y="62" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#ffffff">Plano 6 (Transversal)</text>
+  <text x="114" y="84" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#dcebf7">Gobierno &amp; Zero Trust</text>
+
+  <rect x="36" y="130" width="156" height="110" rx="10" fill="#ffffff" stroke="#2571a6" stroke-width="1.5" />
+  <text x="114" y="160" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#14395a">Glosario &amp; CDE</text>
+  <text x="114" y="182" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11.5" fill="#2c3e50">Definiciones oficiales</text>
+  <text x="114" y="200" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11.5" fill="#2c3e50">y umbrales DAMA</text>
+  <text x="114" y="218" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11.5" fill="#2c3e50">por dominio.</text>
+
+  <rect x="36" y="275" width="156" height="110" rx="10" fill="#ffffff" stroke="#2571a6" stroke-width="1.5" />
+  <text x="114" y="305" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#14395a">Catálogo &amp; Linaje</text>
+  <text x="114" y="327" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11.5" fill="#2c3e50">Trazabilidad técnica</text>
+  <text x="114" y="345" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11.5" fill="#2c3e50">y de negocio</text>
+  <text x="114" y="363" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11.5" fill="#2c3e50">End-to-End.</text>
+
+  <rect x="36" y="420" width="156" height="120" rx="10" fill="#ffffff" stroke="#2571a6" stroke-width="1.5" />
+  <text x="114" y="450" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#14395a">Seguridad Zero Trust</text>
+  <text x="114" y="472" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11.5" fill="#2c3e50">Clasificación PII,</text>
+  <text x="114" y="490" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11.5" fill="#2c3e50">enmascaramiento,</text>
+  <text x="114" y="508" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11.5" fill="#2c3e50">cifrado y RBAC.</text>
+
+  <rect x="36" y="575" width="156" height="115" rx="10" fill="#ffffff" stroke="#2571a6" stroke-width="1.5" />
+  <text x="114" y="605" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#14395a">Stewardship (RACI)</text>
+  <text x="114" y="627" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11.5" fill="#2c3e50">Data Owners [A]</text>
+  <text x="114" y="645" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11.5" fill="#2c3e50">Data Stewards [R]</text>
+  <text x="114" y="663" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11.5" fill="#2c3e50">Data Custodians [R]</text>
+
+  <rect x="36" y="725" width="156" height="115" rx="10" fill="#ffffff" stroke="#2571a6" stroke-width="1.5" />
+  <text x="114" y="755" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#14395a">Observabilidad</text>
+  <text x="114" y="777" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11.5" fill="#2c3e50">Alertas de drift,</text>
+  <text x="114" y="795" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11.5" fill="#2c3e50">auditoría histórica</text>
+  <text x="114" y="813" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11.5" fill="#2c3e50">y control FinOps.</text>
+
+  <!-- PLANO 1 Y 2: FUENTES + INGESTA DESACOPLADA (MORADO) -->
+  <rect x="250" y="30" width="760" height="200" rx="14" fill="#EAE7FF" stroke="#56517e" stroke-width="2" />
+  <path d="M 264 30 H 996 A 14 14 0 0 1 1010 44 V 88 H 250 V 44 A 14 14 0 0 1 264 30 Z" fill="#76608a" />
+  <text x="274" y="55" font-family="Arial, Helvetica, sans-serif" font-size="18.5" font-weight="700" fill="#ffffff">Planos 1 y 2: Fuentes Heterogéneas e Ingesta Desacoplada (Bronze)</text>
+  <text x="274" y="76" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#f0ecf7">Captura estandarizada Batch / Streaming · Zona Cruda Inmutable · Sin conexiones punto a punto</text>
+
+  <rect x="276" y="106" width="218" height="104" rx="12" fill="#d0cee2" stroke="#56517e" stroke-width="1.8" />
+  <text x="385" y="135" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#193f64">Core Transaccional / ERP</text>
+  <text x="385" y="158" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#243447">Fuente Autoritativa Legal</text>
+  <text x="385" y="177" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#193f64">Trust Score: 95</text>
+
+  <rect x="521" y="106" width="218" height="104" rx="12" fill="#d0cee2" stroke="#56517e" stroke-width="1.8" />
+  <text x="630" y="135" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#193f64">CRM y Canales Digitales</text>
+  <text x="630" y="158" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#243447">Datos de contacto recientes</text>
+  <text x="630" y="177" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#193f64">Trust Score: 85</text>
+
+  <rect x="766" y="106" width="218" height="104" rx="12" fill="#d0cee2" stroke="#56517e" stroke-width="1.8" />
+  <text x="875" y="135" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#193f64">Legados y Terceros</text>
+  <text x="875" y="158" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#243447">Históricos y externos</text>
+  <text x="875" y="177" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#193f64">Trust Score: 50</text>
+
+  <!-- PLANO 3: CALIDAD DE DATOS Y QUALITY GATES (AZUL) -->
+  <rect x="250" y="286" width="760" height="200" rx="14" fill="#ecf7ff" stroke="#226aa1" stroke-width="2" />
+  <path d="M 264 286 H 996 A 14 14 0 0 1 1010 300 V 344 H 250 V 300 A 14 14 0 0 1 264 286 Z" fill="#2379b0" />
+  <text x="274" y="311" font-family="Arial, Helvetica, sans-serif" font-size="18.5" font-weight="700" fill="#ffffff">Plano 3: Calidad de Datos Automatizada y Quality Gates</text>
+  <text x="274" y="332" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#e6f4fd">Reglas declarativas DAMA-DMBOK sobre CDEs · Bloqueo preventivo antes de Silver</text>
+
+  <rect x="276" y="362" width="218" height="104" rx="12" fill="#D6ECFC" stroke="#23669B" stroke-width="1.8" />
+  <text x="385" y="391" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#14395a">Perfilamiento Continuo</text>
+  <text x="385" y="413" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#1c3b57">Nulos, formatos, rangos</text>
+  <text x="385" y="431" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#1c3b57">y anomalías estadísticas.</text>
+
+  <rect x="521" y="362" width="218" height="104" rx="12" fill="#D6ECFC" stroke="#23669B" stroke-width="1.8" />
+  <text x="630" y="391" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#14395a">6 Dimensiones DAMA</text>
+  <text x="630" y="413" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#1c3b57">Completitud · Validez · Unicidad</text>
+  <text x="630" y="431" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#1c3b57">Consistencia · Exactitud · Vigencia</text>
+
+  <rect x="766" y="362" width="218" height="104" rx="12" fill="#D6ECFC" stroke="#23669B" stroke-width="1.8" />
+  <text x="875" y="391" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#14395a">Compuertas (Gates)</text>
+  <text x="875" y="413" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#1c3b57">Válidos → Silver MDM</text>
+  <text x="875" y="431" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#1c3b57">Fallos → Cuarentena</text>
+
+  <!-- PLANO 4: RESOLUCION DE ENTIDADES MDM (AMBAR) -->
+  <rect x="250" y="542" width="760" height="220" rx="14" fill="#fff9eb" stroke="#dc901f" stroke-width="2" />
+  <path d="M 264 542 H 996 A 14 14 0 0 1 1010 556 V 600 H 250 V 556 A 14 14 0 0 1 264 542 Z" fill="#dd941d" />
+  <text x="274" y="567" font-family="Arial, Helvetica, sans-serif" font-size="18.5" font-weight="700" fill="#ffffff">Plano 4: Resolución de Entidades y Motor MDM (Silver)</text>
+  <text x="274" y="588" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#fff6e5">Estandarización · Match Determinístico/Probabilístico · Zona Gris · Supervivencia</text>
+
+  <rect x="276" y="618" width="218" height="122" rx="12" fill="#fff2cf" stroke="#d99423" stroke-width="1.8" />
+  <text x="385" y="647" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#633b0b">Estandarización</text>
+  <text x="385" y="670" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#5c3d12">Normalización de nombres,</text>
+  <text x="385" y="688" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#5c3d12">llave natural (tipo+doc)</text>
+  <text x="385" y="706" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#5c3d12">y teléfonos/correos.</text>
+
+  <rect x="521" y="618" width="218" height="122" rx="12" fill="#fff2cf" stroke="#d99423" stroke-width="1.8" />
+  <text x="630" y="647" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#633b0b">Match &amp; Zona Gris</text>
+  <text x="630" y="670" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#5c3d12">100%: Determinístico</text>
+  <text x="630" y="688" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#5c3d12">92–99%: Auto-Merge</text>
+  <text x="630" y="706" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#5c3d12">80–91%: Data Steward</text>
+
+  <rect x="766" y="618" width="218" height="122" rx="12" fill="#fff2cf" stroke="#d99423" stroke-width="1.8" />
+  <text x="875" y="647" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#633b0b">Reglas Supervivencia</text>
+  <text x="875" y="670" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#5c3d12">Identidad: Mayor Trust Score</text>
+  <text x="875" y="688" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#5c3d12">Contacto: Más reciente</text>
+  <text x="875" y="706" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#5c3d12">Trazabilidad XREF.</text>
+
+  <!-- PLANO 5: REPOSITORIO MAESTRO Y CONSUMO (VERDE) -->
+  <rect x="250" y="818" width="760" height="252" rx="14" fill="#effaf0" stroke="#32884c" stroke-width="2" />
+  <path d="M 264 818 H 996 A 14 14 0 0 1 1010 832 V 876 H 250 V 832 A 14 14 0 0 1 264 818 Z" fill="#39914f" />
+  <text x="274" y="843" font-family="Arial, Helvetica, sans-serif" font-size="18.5" font-weight="700" fill="#ffffff">Plano 5: Repositorio Maestro (Gold) y Consumo Certificado</text>
+  <text x="274" y="864" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#e5f6e7">Fuente Única de Verdad (SSOT) · PII Enmascarado · Habilitación BI, Regulatorio e IA</text>
+
+  <rect x="272" y="898" width="170" height="146" rx="12" fill="#e5f6e7" stroke="#339454" stroke-width="1.8" />
+  <text x="357" y="930" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="700" fill="#1d5330">Golden Record</text>
+  <text x="357" y="954" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11.5" fill="#214e31">dim_cliente_golden</text>
+  <text x="357" y="974" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11.5" fill="#214e31">ID Maestro único y</text>
+  <text x="357" y="992" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11.5" fill="#214e31">atributos ganadores</text>
+  <text x="357" y="1012" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11.5" font-weight="700" fill="#1d5330">PII Protegido</text>
+
+  <rect x="454" y="898" width="170" height="146" rx="12" fill="#e5f6e7" stroke="#339454" stroke-width="1.8" />
+  <text x="539" y="930" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="700" fill="#1d5330">Tabla XREF</text>
+  <text x="539" y="954" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11.5" fill="#214e31">mdm_cliente_xref</text>
+  <text x="539" y="974" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11.5" fill="#214e31">Equivalencias origen</text>
+  <text x="539" y="992" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11.5" fill="#214e31">y capacidad de</text>
+  <text x="539" y="1012" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11.5" font-weight="700" fill="#1d5330">Unmerge / Auditoría</text>
+
+  <rect x="636" y="898" width="170" height="146" rx="12" fill="#e5f6e7" stroke="#339454" stroke-width="1.8" />
+  <text x="721" y="930" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="700" fill="#1d5330">BI y Regulatorio</text>
+  <text x="721" y="954" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11.5" fill="#214e31">Scorecards ejecutivos,</text>
+  <text x="721" y="974" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11.5" fill="#214e31">reportes a entes de</text>
+  <text x="721" y="992" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11.5" fill="#214e31">control y cierre</text>
+  <text x="721" y="1012" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11.5" font-weight="700" fill="#1d5330">Sin reprocesos</text>
+
+  <rect x="818" y="898" width="170" height="146" rx="12" fill="#e5f6e7" stroke="#339454" stroke-width="1.8" />
+  <text x="903" y="930" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="700" fill="#1d5330">Analítica, IA y APIs</text>
+  <text x="903" y="954" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11.5" fill="#214e31">Datasets certificados</text>
+  <text x="903" y="974" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11.5" fill="#214e31">para ML/LLMs y</text>
+  <text x="903" y="992" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11.5" fill="#214e31">exposición vía API</text>
+  <text x="903" y="1012" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11.5" font-weight="700" fill="#1d5330">Tiempo Real / Batch</text>
+
+  <!-- DERECHA: CUARENTENA Y REMEDIACION -->
+  <rect x="1050" y="518" width="195" height="142" rx="12" fill="#fdecec" stroke="#b83b3b" stroke-width="1.8" />
+  <text x="1147" y="548" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13.5" font-weight="700" fill="#7a1c1c">Cuarentena &amp; Remediación</text>
+  <text x="1147" y="572" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11.5" fill="#6b2323">Aislamiento automático</text>
+  <text x="1147" y="590" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11.5" fill="#6b2323">Corrección en sistema</text>
+  <text x="1147" y="608" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11.5" fill="#6b2323">origen por Data Steward</text>
+  <text x="1147" y="636" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#7a1c1c">SLA: MTTR &lt; 24h</text>
+
+  <rect x="1078" y="365" width="120" height="22" rx="6" fill="#ffffff" stroke="#b83b3b" stroke-width="1" />
+  <text x="1138" y="380" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="700" fill="#b83b3b">Fallos críticos</text>
+</svg>

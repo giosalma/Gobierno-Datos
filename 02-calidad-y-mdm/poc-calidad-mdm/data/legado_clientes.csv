@@ -1,0 +1,7 @@
+id_origen,tipo_doc,num_doc,nombre_completo,fecha_nacimiento,email,telefono,direccion,estado_cliente,tiene_producto_activo,segmento,fecha_actualizacion
+LEG-9001,CC,1015423890,GOMEZ RUIZ CARLOS A,1985-04-12,cgomez_old@hotmail.com,+573000001111,Cra 15 # 90-10,INACTIVO,NO,MASIVO,2024-05-10
+LEG-9002,CC,51987650,Patricia Elena Herrera Ortz,1975-09-14,pherrera@oldmail.co,+573147776655,Cl 85 # 15-30,ACTIVO,SI,MASIVO,2025-08-19
+LEG-9003,CC,79112233,Mauricio Alejandro León Cruz,2035-01-01,mauricio.leon@correo.co,+573192221100,Cl 53 # 13-20 Bogotá,ACTIVO,SI,MASIVO,2025-02-11
+LEG-9004,CC,52112233,,1980-10-10,sin.nombre@legado.co,+573101112233,Sin direccion,ACTIVO,SI,MASIVO,2024-11-20
+LEG-9005,CE,456789,LAURA SOFIA MENDOZA,1990-02-19,laura.m@old.com,+573205556677,Cl 100 # 19-61,ACTIVO,SI,MASIVO,2025-04-01
+LEG-9006,CC,39654321,Gloria Esperanza Pardo Vega,1964-12-08,gloria.pardo@correo.co,+573136667788,Cra 30 # 45-12 Bogotá,ACTIVO,SI,MASIVO,2025-09-15

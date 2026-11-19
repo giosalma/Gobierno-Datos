@@ -1,0 +1,181 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 1080" width="1280" height="1080">
+  <defs>
+    <style>
+      .flow-center { stroke-dasharray: 8 5; animation: dashFlow 0.9s linear infinite; }
+      .flow-side { stroke-dasharray: 10 6; animation: dashFlow 1.2s linear infinite; }
+      @keyframes dashFlow { from { stroke-dashoffset: 32; } to { stroke-dashoffset: 0; } }
+    </style>
+    <marker id="g-arr-p" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 1 L 10 5 L 0 9 z" fill="#56517e" /></marker>
+    <marker id="g-arr-b" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 1 L 10 5 L 0 9 z" fill="#226aa1" /></marker>
+    <marker id="g-arr-a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 1 L 10 5 L 0 9 z" fill="#dc901f" /></marker>
+    <marker id="g-arr-g" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 1 L 10 5 L 0 9 z" fill="#2d8145" /></marker>
+    <marker id="g-arr-db" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 1 L 10 5 L 0 9 z" fill="#15547f" /></marker>
+  </defs>
+  <rect x="0" y="0" width="1280" height="1080" fill="#ffffff" />
+
+  <!-- FLUJOS -->
+  <path d="M 630 225 L 630 272" fill="none" stroke="#56517e" stroke-width="3.2" class="flow-center" marker-end="url(#g-arr-p)" />
+  <path d="M 630 475 L 630 522" fill="none" stroke="#226aa1" stroke-width="3.2" class="flow-center" marker-end="url(#g-arr-b)" />
+  <path d="M 630 735 L 630 782" fill="none" stroke="#dc901f" stroke-width="3.2" class="flow-center" marker-end="url(#g-arr-a)" />
+
+  <!-- Gobierno GCP Izquierda -->
+  <path d="M 210 130 L 244 130" fill="none" stroke="#15547f" stroke-width="2.5" class="flow-side" marker-end="url(#g-arr-db)" />
+  <path d="M 210 375 L 244 375" fill="none" stroke="#15547f" stroke-width="2.5" class="flow-side" marker-end="url(#g-arr-db)" />
+  <path d="M 210 630 L 244 630" fill="none" stroke="#15547f" stroke-width="2.5" class="flow-side" marker-end="url(#g-arr-db)" />
+  <path d="M 210 905 L 244 905" fill="none" stroke="#15547f" stroke-width="2.5" class="flow-side" marker-end="url(#g-arr-db)" />
+
+  <!-- PoC Derecha -->
+  <path d="M 1010 375 L 1052 375" fill="none" stroke="#2d8145" stroke-width="2.6" class="flow-side" marker-end="url(#g-arr-g)" />
+  <path d="M 1010 630 L 1052 630" fill="none" stroke="#2d8145" stroke-width="2.6" class="flow-side" marker-end="url(#g-arr-g)" />
+  <path d="M 1010 905 L 1052 905" fill="none" stroke="#2d8145" stroke-width="2.6" class="flow-side" marker-end="url(#g-arr-g)" />
+
+  <!-- PANEL IZQUIERDO: GOBIERNO Y SEGURIDAD GCP -->
+  <rect x="20" y="30" width="190" height="1010" rx="14" fill="#eef5fc" stroke="#15547f" stroke-width="2" />
+  <path d="M 34 30 H 196 A 14 14 0 0 1 210 44 V 102 H 20 V 44 A 14 14 0 0 1 34 30 Z" fill="#15547f" />
+  <text x="115" y="60" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#ffffff">Gobierno &amp; Seguridad</text>
+  <text x="115" y="82" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#dcebf7">Google Cloud (GCP)</text>
+
+  <rect x="34" y="130" width="162" height="115" rx="10" fill="#ffffff" stroke="#2571a6" stroke-width="1.5" />
+  <text x="115" y="160" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#14395a">Dataplex Catalog</text>
+  <text x="115" y="182" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11.5" fill="#2c3e50">Glosario corporativo,</text>
+  <text x="115" y="200" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11.5" fill="#2c3e50">metadatos técnicos</text>
+  <text x="115" y="218" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11.5" fill="#2c3e50">y linaje automático.</text>
+
+  <rect x="34" y="280" width="162" height="115" rx="10" fill="#ffffff" stroke="#2571a6" stroke-width="1.5" />
+  <text x="115" y="310" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#14395a">Sensitive Data (DLP)</text>
+  <text x="115" y="332" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11.5" fill="#2c3e50">Descubrimiento PII,</text>
+  <text x="115" y="350" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11.5" fill="#2c3e50">enmascaramiento y</text>
+  <text x="115" y="368" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11.5" fill="#2c3e50">tokenización.</text>
+
+  <rect x="34" y="430" width="162" height="115" rx="10" fill="#ffffff" stroke="#2571a6" stroke-width="1.5" />
+  <text x="115" y="460" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#14395a">Cloud IAM &amp; KMS</text>
+  <text x="115" y="482" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11.5" fill="#2c3e50">Acceso mínimo</text>
+  <text x="115" y="500" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11.5" fill="#2c3e50">privilegio Zero Trust</text>
+  <text x="115" y="518" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11.5" fill="#2c3e50">y cifrado CMEK.</text>
+
+  <rect x="34" y="580" width="162" height="115" rx="10" fill="#ffffff" stroke="#2571a6" stroke-width="1.5" />
+  <text x="115" y="610" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#14395a">Cloud Composer</text>
+  <text x="115" y="632" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11.5" fill="#2c3e50">Orquestación Airflow</text>
+  <text x="115" y="650" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11.5" fill="#2c3e50">de pipelines Bronze,</text>
+  <text x="115" y="668" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11.5" fill="#2c3e50">Silver y Gold.</text>
+
+  <rect x="34" y="730" width="162" height="115" rx="10" fill="#ffffff" stroke="#2571a6" stroke-width="1.5" />
+  <text x="115" y="760" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#14395a">Cloud Monitoring</text>
+  <text x="115" y="782" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11.5" fill="#2c3e50">Alertas SLA (&lt;24h),</text>
+  <text x="115" y="800" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11.5" fill="#2c3e50">auditoría Cloud Logs</text>
+  <text x="115" y="818" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11.5" fill="#2c3e50">y control FinOps.</text>
+
+  <!-- CAPA 1: INGESTA Y BRONZE (MORADO) -->
+  <rect x="250" y="30" width="760" height="195" rx="14" fill="#EAE7FF" stroke="#56517e" stroke-width="2" />
+  <path d="M 264 30 H 996 A 14 14 0 0 1 1010 44 V 86 H 250 V 44 A 14 14 0 0 1 264 30 Z" fill="#76608a" />
+  <text x="274" y="55" font-family="Arial, Helvetica, sans-serif" font-size="18.5" font-weight="700" fill="#ffffff">1. Ingesta y Zona Bronze — Google Cloud Storage + Dataflow</text>
+  <text x="274" y="75" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#f0ecf7">Ingesta serverless Batch / Streaming desde Core, CRM y Legados</text>
+
+  <rect x="276" y="102" width="218" height="102" rx="12" fill="#d0cee2" stroke="#56517e" stroke-width="1.8" />
+  <text x="385" y="132" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#193f64">Pub/Sub &amp; Dataflow</text>
+  <text x="385" y="154" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#243447">Conectores desacoplados</text>
+  <text x="385" y="172" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#243447">Apache Beam serverless.</text>
+
+  <rect x="521" y="102" width="218" height="102" rx="12" fill="#d0cee2" stroke="#56517e" stroke-width="1.8" />
+  <text x="630" y="132" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#193f64">Cloud Storage (GCS)</text>
+  <text x="630" y="154" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#243447">Landing Zone inmutable</text>
+  <text x="630" y="172" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#243447">(Parquet / CSV / JSON).</text>
+
+  <rect x="766" y="102" width="218" height="102" rx="12" fill="#d0cee2" stroke="#56517e" stroke-width="1.8" />
+  <text x="875" y="132" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#193f64">BigQuery Bronze</text>
+  <text x="875" y="154" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#243447">01_bronze_clientes_unificado</text>
+  <text x="875" y="172" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#243447">con Trust Score y timestamp.</text>
+
+  <!-- CAPA 2: CALIDAD DE DATOS EN GCP (AZUL) -->
+  <rect x="250" y="280" width="760" height="195" rx="14" fill="#ecf7ff" stroke="#226aa1" stroke-width="2" />
+  <path d="M 264 280 H 996 A 14 14 0 0 1 1010 294 V 336 H 250 V 294 A 14 14 0 0 1 264 280 Z" fill="#2379b0" />
+  <text x="274" y="305" font-family="Arial, Helvetica, sans-serif" font-size="18.5" font-weight="700" fill="#ffffff">2. Calidad Automatizada — Dataplex Auto Data Quality</text>
+  <text x="274" y="325" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#e6f4fd">Reglas declarativas YAML/SQL · Quality Gates · Desvío a Cuarentena en BigQuery</text>
+
+  <rect x="276" y="352" width="218" height="102" rx="12" fill="#D6ECFC" stroke="#23669B" stroke-width="1.8" />
+  <text x="385" y="382" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#14395a">Dataplex Auto DQ</text>
+  <text x="385" y="404" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#1c3b57">Validación nativa de las</text>
+  <text x="385" y="422" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#1c3b57">6 dimensiones DAMA.</text>
+
+  <rect x="521" y="352" width="218" height="102" rx="12" fill="#D6ECFC" stroke="#23669B" stroke-width="1.8" />
+  <text x="630" y="382" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#14395a">Tabla Cuarentena</text>
+  <text x="630" y="404" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#1c3b57">02_cuarentena_dq</text>
+  <text x="630" y="422" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#1c3b57">Motivo exacto + SLA &lt; 24h.</text>
+
+  <rect x="766" y="352" width="218" height="102" rx="12" fill="#D6ECFC" stroke="#23669B" stroke-width="1.8" />
+  <text x="875" y="382" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#14395a">Silver Válidos</text>
+  <text x="875" y="404" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#1c3b57">02_silver_clientes_validos</text>
+  <text x="875" y="422" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#1c3b57">Normalizados y limpios.</text>
+
+  <!-- CAPA 3: MOTOR MDM EN GCP (AMBAR) -->
+  <rect x="250" y="530" width="760" height="205" rx="14" fill="#fff9eb" stroke="#dc901f" stroke-width="2" />
+  <path d="M 264 530 H 996 A 14 14 0 0 1 1010 544 V 586 H 250 V 544 A 14 14 0 0 1 264 530 Z" fill="#dd941d" />
+  <text x="274" y="555" font-family="Arial, Helvetica, sans-serif" font-size="18.5" font-weight="700" fill="#ffffff">3. Motor MDM (Silver) — BigQuery + Dataform / Dataproc</text>
+  <text x="274" y="575" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#fff6e5">Match Determinístico (SQL) + Probabilístico (PySpark/Python) + Reglas de Supervivencia</text>
+
+  <rect x="276" y="604" width="218" height="110" rx="12" fill="#fff2cf" stroke="#d99423" stroke-width="1.8" />
+  <text x="385" y="634" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#633b0b">Dataform / SQL</text>
+  <text x="385" y="656" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#5c3d12">Transformación versionada</text>
+  <text x="385" y="674" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#5c3d12">en Git y Match Exacto.</text>
+
+  <rect x="521" y="604" width="218" height="110" rx="12" fill="#fff2cf" stroke="#d99423" stroke-width="1.8" />
+  <text x="630" y="634" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#633b0b">Dataproc / Python</text>
+  <text x="630" y="656" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#5c3d12">Matching probabilístico</text>
+  <text x="630" y="674" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#5c3d12">(Fuzzy) y Zona Gris.</text>
+
+  <rect x="766" y="604" width="218" height="110" rx="12" fill="#fff2cf" stroke="#d99423" stroke-width="1.8" />
+  <text x="875" y="634" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#633b0b">Motor Supervivencia</text>
+  <text x="875" y="656" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#5c3d12">Priorización por Trust Score</text>
+  <text x="875" y="674" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#5c3d12">y fecha más reciente.</text>
+
+  <!-- CAPA 4: GOLD Y CONSUMO EN GCP (VERDE) -->
+  <rect x="250" y="790" width="760" height="250" rx="14" fill="#effaf0" stroke="#32884c" stroke-width="2" />
+  <path d="M 264 790 H 996 A 14 14 0 0 1 1010 804 V 846 H 250 V 804 A 14 14 0 0 1 264 790 Z" fill="#39914f" />
+  <text x="274" y="815" font-family="Arial, Helvetica, sans-serif" font-size="18.5" font-weight="700" fill="#ffffff">4. Zona Gold y Consumo — BigQuery + Looker + Apigee/Vertex AI</text>
+  <text x="274" y="835" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#e5f6e7">Tablas particionadas/clusterizadas · Scorecards en vivo · APIs y Modelos IA</text>
+
+  <rect x="276" y="868" width="218" height="148" rx="12" fill="#e5f6e7" stroke="#339454" stroke-width="1.8" />
+  <text x="385" y="900" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#1d5330">BigQuery Gold</text>
+  <text x="385" y="924" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11.5" fill="#214e31">03_gold_clientes_golden</text>
+  <text x="385" y="944" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11.5" fill="#214e31">03_gold_clientes_xref</text>
+  <text x="385" y="964" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11.5" fill="#214e31">03_gold_dq_scorecard</text>
+  <text x="385" y="990" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11.5" font-weight="700" fill="#1d5330">PII Enmascarado</text>
+
+  <rect x="521" y="868" width="218" height="148" rx="12" fill="#e5f6e7" stroke="#339454" stroke-width="1.8" />
+  <text x="630" y="900" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#1d5330">Looker / Looker Studio</text>
+  <text x="630" y="924" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11.5" fill="#214e31">Scorecard ejecutivo de</text>
+  <text x="630" y="944" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11.5" fill="#214e31">Calidad por sistema y</text>
+  <text x="630" y="964" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11.5" fill="#214e31">monitoreo de Cuarentena</text>
+  <text x="630" y="990" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11.5" font-weight="700" fill="#1d5330">KPIs C-Level</text>
+
+  <rect x="766" y="868" width="218" height="148" rx="12" fill="#e5f6e7" stroke="#339454" stroke-width="1.8" />
+  <text x="875" y="900" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#1d5330">Apigee &amp; Vertex AI</text>
+  <text x="875" y="924" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11.5" fill="#214e31">APIs de consulta del</text>
+  <text x="875" y="944" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11.5" fill="#214e31">Golden Record y features</text>
+  <text x="875" y="964" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11.5" fill="#214e31">certificados para IA</text>
+  <text x="875" y="990" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11.5" font-weight="700" fill="#1d5330">Zero Bias</text>
+
+  <!-- PANEL DERECHO: EQUIVALENCIA PoC $0 USD -->
+  <rect x="1060" y="280" width="200" height="760" rx="14" fill="#effaf0" stroke="#2d8145" stroke-width="2" stroke-dasharray="6 4" />
+  <path d="M 1074 280 H 1246 A 14 14 0 0 1 1260 294 V 350 H 1060 V 294 A 14 14 0 0 1 1074 280 Z" fill="#2d8145" />
+  <text x="1160" y="310" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#ffffff">PoC Implementable</text>
+  <text x="1160" y="332" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12.5" font-weight="700" fill="#e5f6e7">Costo: $0 USD</text>
+
+  <rect x="1076" y="372" width="168" height="120" rx="10" fill="#ffffff" stroke="#339454" stroke-width="1.5" />
+  <text x="1160" y="402" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#1d5330">BigQuery Sandbox</text>
+  <text x="1160" y="424" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11.5" fill="#214e31">10 GB + 1 TB/mes</text>
+  <text x="1160" y="442" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11.5" fill="#214e31">gratis permanente</text>
+  <text x="1160" y="462" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11.5" font-weight="700" fill="#1d5330">Sin tarjeta de crédito</text>
+
+  <rect x="1076" y="570" width="168" height="120" rx="10" fill="#ffffff" stroke="#339454" stroke-width="1.5" />
+  <text x="1160" y="600" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#1d5330">Python / Colab</text>
+  <text x="1160" y="622" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11.5" fill="#214e31">run_mdm_pipeline.py</text>
+  <text x="1160" y="640" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11.5" fill="#214e31">Quality Gates + Fuzzy</text>
+  <text x="1160" y="660" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11.5" font-weight="700" fill="#1d5330">100% reproducible</text>
+
+  <rect x="1076" y="845" width="168" height="120" rx="10" fill="#ffffff" stroke="#339454" stroke-width="1.5" />
+  <text x="1160" y="875" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#1d5330">Looker Studio</text>
+  <text x="1160" y="897" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11.5" fill="#214e31">Conexión nativa a</text>
+  <text x="1160" y="915" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11.5" fill="#214e31">BigQuery Sandbox</text>
+  <text x="1160" y="935" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11.5" font-weight="700" fill="#1d5330">Scorecard gratuito</text>
+</svg>
